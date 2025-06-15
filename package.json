@@ -1,0 +1,19 @@
+{
+  "name": "quizzer-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "groq-sdk": "^0.3.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^8.15.2",
+    "nodemailer": "^7.0.3",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  }
+}
